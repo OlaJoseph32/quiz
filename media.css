@@ -1,0 +1,291 @@
+/* Media */
+@media screen and (max-width: 1200px){
+    .hero-section{
+        line-height: 2;
+        /* background-color: #002bff; */
+        padding: 30px 0;
+    }
+    #welcome{
+        font-size: 2.3rem;
+    }
+    #heading{
+        font-size: 1rem;
+    }
+    label{
+        font-size: 1rem;
+    }
+    .login-form{
+        width: 40%;
+        margin-top: 40px;
+        padding: 20px 0px 35px 0px;
+    
+    }
+
+    .section1{
+        margin-top: 50px;
+        width: 45%;
+    }
+}
+
+    
+@media screen and (max-width: 1100px){
+    .hero-section{
+        line-height: 2;
+        /* background-color: #e0175d; */
+        padding: 30px 0;
+    }
+    #welcome{
+        font-size: 2.3rem;
+    }
+    #heading{
+        font-size: 1rem;
+    }
+    label{
+        font-size: 1rem;
+    }
+    .login-form{
+        width: 40%;
+        margin-top: 40px;
+        padding: 20px 0px 35px 0px;
+    
+    }
+    .section1{
+        margin-top: 50px;
+        width: 45%;
+    }
+   
+}
+
+@media screen and (max-width: 960px){
+    .hero-section{
+        line-height: 2;
+        /* background-color: #0fd8cb; */
+        padding: 10px 0;
+    }
+    #welcome{
+        font-size: 2rem;
+    }
+    #heading{
+        font-size: .8rem;
+    }
+    label{
+        font-size: .8rem;
+    }
+    .login-form{
+        width: 55%;
+        margin-top: -1px;
+        padding: 20px 0px 35px 0px;
+        margin-bottom: 3.5rem;
+    
+    }
+    .section1{
+        margin-top: -20px;
+        width: 55%;
+        margin-bottom: 3.5rem;
+    }
+    span{
+        /* margin-top: -3rem; */
+        font-size: 2rem;
+    }
+}
+    
+@media screen and (max-width: 768px){
+    .hero-section{
+        line-height: 2;
+        /* background-color: #b4d715; */
+        padding: 30px 0;
+    }
+    #welcome{
+        font-size: 1.5rem;
+    }
+    #heading{
+        font-size: .7rem;
+    }
+    label{
+        font-size: .7rem;
+    }
+    .login-form{
+        width: 60%;
+        margin-top: -1px;
+        padding: 20px 0px 35px 0px;
+        margin-bottom: 3.5rem;
+    
+    }
+    .section1{
+        margin-top: -20px;
+        width: 60%;
+        margin-bottom: 3.5rem;
+        padding-right: 10px;
+
+    }
+    span{
+        /* margin-top: -3rem; */
+        font-size: 2rem;
+    }
+   
+}
+   
+
+@media screen and (max-width: 670px){
+    .hero-section{
+        line-height: 2;
+        /* background-color: #9b9c9f; */
+        padding: 30px 0;
+    }
+    #welcome{
+        font-size: 1.5rem;
+    }
+    #heading{
+        font-size: .8rem;
+    }
+    label{
+        font-size: .6rem;
+    }
+    .login-form{
+        width: 85%;
+        margin-top: -1px;
+        padding: 20px 0px 35px 0px;
+        margin-bottom: 3.5rem;
+    
+    }
+    input, select, option{
+        font-size: .6rem;
+    }
+    .section1{
+        margin-top: -20px;
+        width: 85%;
+        margin-bottom: 3.5rem;
+        padding-right: 5px;
+    }
+    span{
+        /* margin-top: -3rem; */
+        font-size: 2rem;
+    }
+    #show{
+        font-size: 1rem;
+        margin-bottom: 3rem;
+    }
+    #results{
+        margin-top: -2rem;
+        font-size: 1.2rem;
+    }
+
+}
+ 
+
+@media screen and (max-width: 399px){
+    .hero-section{
+        line-height: 2;
+        /* background-color: #f700ff; */
+        padding: 30px 0;
+    }
+    #welcome{
+        font-size: 1.5rem;
+    }
+    #heading{
+        font-size: .8rem;
+    }
+    label{
+        font-size: .6rem;
+    }
+    .login-form{
+        width: 85%;
+        margin-top: -1px;
+        padding: 20px 0px 35px 0px;
+        margin-bottom: 3.5rem;
+    
+    }
+    input, select, option{
+        font-size: .6rem;
+    }
+    .section1{
+        margin-top: -20px;
+        width: 85%;
+        margin-bottom: 3.5rem;
+        padding-right: 5px;
+    }
+    span{
+        /* margin-top: -3rem; */
+        font-size: 2rem;
+    }
+    #show{
+        font-size: 1.2rem;
+    }
+    #results{
+        font-size: 1.2rem;
+    }
+
+}
+    
+    
+@media screen and (max-width: 320px){ 
+    .hero-section{
+        line-height: 2;
+        /* background-color: #85d49d; */
+        padding: 30px 0;
+    }
+    #welcome{
+        font-size: 1.2rem;
+    }
+    .bn47 {
+        font-size:.8rem;
+        cursor: pointer;
+        font-weight: bold;
+        border: 3px solid #776e62;
+        -webkit-transition: padding 0.3s ease-in-out;
+        transition: padding 0.3s ease-in-out;
+      }
+    #heading{
+        font-size: .6rem;
+    }
+    label{
+        font-size: .5rem;
+    }
+    .login-form{
+        width: 85%;
+        margin-top: -1px;
+        padding: 20px 0px 35px 0px;
+        margin-bottom: 3.5rem;
+    
+    }
+    input, select, option{
+        font-size: .8rem;
+    }
+ 
+    .prev .prevspan {
+        font-size: .9rem;
+    }
+    .next{
+        font-size:.7rem;
+    }
+    li,p{
+        font-size: .6rem;
+    }
+    .section1{
+        margin-top: -20px;
+        width: 85%;
+        margin-bottom: 3.5rem;
+        padding-right: 5px;
+    }
+    span{
+        /* margin-top: -3rem; */
+        font-size: 2rem;
+    }
+    #show{
+        font-size: 1rem;
+    }
+    #results{
+        font-size: .9rem;
+    }
+}
+    
+/* iphone landscape */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+}
+
+/* new media */
+
+@media only screen and (min-width: 3490px) and (max-width: 490px) {
+    
+}

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body>
+    <main>
+        <div class="hero-section">
+            <h2 id="welcome">WELCOME!!!</h2>
+            <h2 id="heading">Test yourself with 20 random trivia questions</h2>
+            <div class="one">
+                <div id="time-con">
+                    <div class="timer">
+                        <span id="minutes">00</span>
+                        <span>:</span>
+                        <span id="seconds">00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="two" class="section1">
+            <form action="#" id="form" class="login-form">
+                <div class="dvi">
+                    <label for="name">Please enter your full name</label> <br>
+                    <input type="text" id="name" placeholder="Enter your name" class="input1"> <br> <br>
+                    <label for="gender">Gender</label> <br> 
+                    <select name="" id="gemder" class="input1">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>  <br> <br> 
+                </div>
+                <button type="submit" id="login-btn" class="bn47">Start Quiz</button>
+            </form>
+
+            <div id="q1" class="section1">
+                <p>1. What is the capital of Venezuela? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q1ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q1a()">A. Rosario</li>
+                        <li onclick="q1b()" id="caracas">B. Caracas</li>
+                        <li onclick="q1c()">C. San Jose</li>
+                        <li onclick="q1d()">D. Santiago</li> <br>
+                    </div>
+                    <span class="next"><button id="next1" onclick="next1()" class="nextspan">NEXT</button></span>
+                </div>
+            </div>
+
+            <div id="q2" class="section1">
+                <p>2. Which of these is not a Javascript framework? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q2ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q2a()">A. Vue</li>
+                        <li onclick="q2b()" id="java">B. Java</li>
+                        <li onclick="q2c()">C. Angular</li>
+                        <li onclick="q2d()">D. React</li> <br> 
+                    </div>
+                    <span class="next"><button id="next2" onclick="next2()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev2" onclick="prev2()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+            </div>
+
+            <div id="q3"class="section1"> 
+                <p>3. What year was the United Nations established? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q3ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q3a()">A. 1936</li>
+                        <li onclick="q3b()">B. 1985</li>
+                        <li onclick="q3c()" id="year">C. 1945</li>
+                        <li onclick="q3d()">D. 1996</li> <br>
+                    </div>
+                    <span class="next"><button id="next3" onclick="next3()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev3" onclick="prev3()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+
+            </div> 
+
+            <div id="q4"class="section1"> 
+                <p>4. How many element are in periodic table? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q4ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q4a()" id="num118">A. 118</li>
+                        <li onclick="q4b()">B. 200</li>
+                        <li onclick="q4c()">C. 106</li>
+                        <li onclick="q4d()">D. 80</li> <br>
+                    </div>
+                    <span class="next"><button id="next4" onclick="next4()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev4" onclick="prev4()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+
+            </div>
+            
+            <div id="q5"class="section1"> 
+                <p>5. What is the capital of Ghana? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q5ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q5a()">A. Sydney</li>
+                        <li onclick="q5b()" id="accra">B. Accra</li>
+                        <li onclick="q5c()">C. Cairo</li>
+                        <li onclick="q5d()">D. Cape Town</li> <br>
+                    </div>
+                    <span class="next"><button id="next5" onclick="next5()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev5" onclick="prev5()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+            </div>
+
+            <div id="q6"class="section1"> 
+                <p>6. Who is the president of Nigeria? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q6ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q6a()">A. Gen. Muhammed Buhari</li>
+                        <li onclick="q6b()">B. Peter Obi</li>
+                        <li onclick="q6c()" id="bola">C. Bola Ahmed Tinubu</li>
+                        <li onclick="q6d()">D. Dino Melaye</li> <br>
+                    </div>
+                    <span class="next"><button id="next6" onclick="next6()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev6" onclick="prev6()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+            </div>
+
+            <div id="q7"class="section1"> 
+                <p>7. Who is the richest man in Africa? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q7ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q7a()">A. Femi Otedola</li>
+                        <li onclick="q7b()">B. Mike Adenuga</li>
+                        <li onclick="q7c()">C. Folorunso Alakija</li>
+                        <li onclick="q7d()" id="aliko">D. Aliko Dangote</li> <br>
+                    </div>
+                    <span class="next"><button id="next7" onclick="next7()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev7" onclick="prev7()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+            </div>
+
+            <div id="q8"class="section1"> 
+                <p>8. In what country is the "Vatican City" located? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q8ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q8a()">A. Argentina<li>
+                        <li onclick="q8b()">B. England</li>
+                        <li onclick="q8c()" id="italy">C. Italy</li>
+                        <li onclick="q8d()">D. France</li> <br>
+                    </div>
+                    <span class="next"><button id="next8" onclick="next8()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev8" onclick="prev8()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+            </div>
+
+            <div id="q9"class="section1"> 
+                <p>9. How many Planets are in solar system? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q9ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q9a()">A. 8</li>
+                        <li onclick="q9b()" id="num9">B. 9</li>
+                        <li onclick="q9c()">C. 7</li>
+                        <li onclick="q9d()">D. 12</li> <br>
+                    </div>
+                    <span class="next"><button id="next9" onclick="next9()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev9" onclick="prev9()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+            </div>
+
+            <div id="q10"class="section1"> 
+                <p>10. In the equation: 2x + 2 + 3x + 1 = 13, Find the value of "X"? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q10ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q10a()">A. 5</li>
+                        <li onclick="q10b()" id="num2">B. 2</li>
+                        <li onclick="q10c()">C. 12</li>
+                        <li onclick="q10d()">D. 3</li> <br>
+                    </div>
+                    <span class="next"><button id="next10" onclick="next10()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev10" onclick="prev10()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+            </div>
+
+            <div id="q11" class="section1"> 
+                <p>11. What is the largest ocean in the world? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q11ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q11a()">A. South Atlantic ocean</li>
+                        <li onclick="q11b()">B. Indian Ocean</li>
+                        <li onclick="q11c()">C. Atlantic Ocean</li>
+                        <li onclick="q11d()" id="pacific">D. Pacific ocean</li> <br>
+                    </div>
+                    <span class="next"><button id="next11" onclick="next11()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev11" onclick="prev11()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+            </div>
+
+            <div id="q12" class="section1"> 
+                <p>12. What year "ECOWAS" was founded? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q12ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q12a()" id="year1975">A. 1975</li>
+                        <li onclick="q12b()">B. 1990</li>
+                        <li onclick="q12c()">C. 1967</li>
+                        <li onclick="q12d()">D. 1945</li> <br>
+                    </div>
+                    <span class="next"><button id="next12" onclick="next12()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev12" onclick="prev12()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+            </div>
+
+            <div id="q13" class="section1">
+                <p>13. How many local governments are in Nigeria? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q13ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q13a()" id="num774">A. 774</li>
+                        <li onclick="q13b()">B. 435</li>
+                        <li onclick="q13c()">C. 753</li>
+                        <li onclick="q13d()">D. 245</li> <br>
+                    </div>
+                    <span class="next"><button id="next13" onclick="next13()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev13" onclick="prev13()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+            </div>
+
+            <div id="q14" class="section1"> 
+                <p>14. Which of the followinmg is among the three arms of governments?</p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q14ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q14a()">A. Senate</li>
+                        <li onclick="q14b()">B. President</li>
+                        <li onclick="q14c()" id="legislature">C. Legislature</li>
+                        <li onclick="q14d()">D. Governor</li>
+                    </div>
+                    <span class="next"><button id="next14" onclick="next14()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev14" onclick="prev14()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+            </div>
+
+            <div id="q15" class="section1"> 
+                <p>15. Which of the following is the molecular formular of Salt? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q15ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q15a()">A. H2O</li>
+                        <li onclick="q15b()">B. NO2</li>
+                        <li onclick="q15c()">C. H2SO4</li>
+                        <li onclick="q15d()" id="NaCl">D. NaCl</li> <br>
+                    </div>
+                    <span class="next"><button id="next15" onclick="next15()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev15" onclick="prev15()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+            </div>
+
+            <div id="q16" class="section1"> 
+                <p>16. How many days make one leap year? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q16ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q16a()" id="num366">A. 366</li>
+                        <li onclick="q16b()">B. 365</li>
+                        <li onclick="q16c()">C. 367</li>
+                        <li onclick="q16d()">D. 350</li> <br>
+                    </div>
+                    <span class="next"><button id="next16" onclick="next16()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev16" onclick="prev16()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+            </div>
+
+            <div id="q17" class="section1"> 
+                <p>17. What is the largest organ in human body? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q17ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q17a()">A. Lung</li>
+                        <li onclick="q17b()">B. Skull</li>
+                        <li onclick="q17c()" id="skin">C. Skin</li>
+                        <li onclick="q17d()">D. Heart</li> <br>
+                    </div>
+                    <span class="next"><button id="next17" onclick="next17()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev17" onclick="prev17()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+            </div>
+
+            <div id="q18" class="section1"> 
+                <p>18. If heat gas in a closed container that cannot expand, the gas will increase in? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q18ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q18a()">A. Weight</li>
+                        <li onclick="q18b()">B. Volume</li>
+                        <li onclick="q18c()" id="pressure">C. Pressure</li>
+                        <li onclick="q18d()">D. Mass</li> 
+                    </div>
+                    <span class="next"><button id="next18" onclick="next18()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev18" onclick="prev18()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+            </div>
+
+            <div id="q19" class="section1">
+                <p>19. Which of the followung is a ruminant animal? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q19ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q19a()">A. Snake</li>
+                        <li onclick="q19b()">B. Cat</li>
+                        <li onclick="q19c()">C. Dog</li>
+                        <li onclick="q19d()" id="goat">D. Goat</li> <br>
+                    </div>
+                    <span class="next"><button id="next19" onclick="next19()" class="nextspan">NEXT</button></span> <br> <br>
+                    <button id="prev19" onclick="prev19()" class="prev"><span class="prevspan">PREVIOUS</span></button>
+                </div>
+            </div>
+
+            <div id="q20" class="section1"> 
+                <p>20. What is the most populated continent in the world? </p>
+                <div class="con">
+                    <div class="sum">
+                        <input type="text" id="q20ans" disabled class="input2">
+                        <br> <br>
+                        <li onclick="q20a()" id="asian">A. Asian</li>
+                        <li onclick="q20b()">B. Africa</li>
+                        <li onclick="q20c()">C. Europe</li>
+                        <li onclick="q20d()">D. America</li> <br>
+                    </div>
+                    <button id="prev20" onclick="prev20()" class="prev"><span class="prevspan">PREVIOUS</span></button> <br> <br>
+                    <button id="submit" onclick="submit()" class="submit">SUBMIT</button>
+                </div>
+            </div>
+            <div class="answer">
+                <h1 id="results"></h1> <br> <br>
+                <button id="show" onclick="show()">Show Answers</button>
+            </div>
+    </main>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
